@@ -18,7 +18,7 @@ for k in range(1,100):
         # plt.show()
 
         import numpy as np
-        res = np.zeros((500,500,32))
+        res = np.full((500,500,32),255)
         for m in range(500):
             for n in range(500):
                 if img_label[m,n] == 3:
